@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+ 
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about{
+    font-size: 30px;
+    color: black;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about1{
+    font-size: 30px;
+    color: black;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.job{
+    font-size: 30px;
+    color: black;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact{
+    font-size: 30px;
+    color: black;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact1{
+    font-size: 30px;
+    color: black;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home{
+    font-size: 30px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.business{
+    font-size: 30px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.milktea{
+    width: 20%;
+    height: 50%;
+    align-items: center;
+}
+.necklace{
+    width: 20%;
+    height: 20%;
+    align-items: center;
+}
+.totebag{
+    width: 15%;
+    height: 18%;
+    align-items: center;
+}
+.me{
+    border-radius: 50%;
+}
+.bar{
+    text-align: center;
+}
+.home:hover{
+    opacity: 0.10;
+}
+.about:hover{
+    opacity: 0.10;
+}
+.business:hover{
+    opacity: 0.10;
+}
+.contact:hover{
+    opacity: 0.10;
+}
+#hero .image0.jpeg {
+    width: 200px;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Add everything below here */
+
+#hero h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+} 
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Add everything below here */
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("pexels-arist-creathrive-2307634.jpg");
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("pexels-arist-creathrive-2307638.jpg");
+}
+
+#business {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("Sea-HD-Wallpaper-Free-download.jpg");
+}
+
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("pexels-fabian-wiktor-994605.jpg");
+}
